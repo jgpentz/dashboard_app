@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.firstrf.com/simple"
+verify_ssl = true
+name = "custom"
+
+[packages]
+uvicorn = "*"
+fastapi = "*"
+pydantic = "*"
+frf-rftools = "*"
+pymongo = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"
